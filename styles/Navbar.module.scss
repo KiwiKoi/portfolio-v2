@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: darkcyan;
+  color: aliceblue;
+  width: 100vw;
+  padding: 1rem;
+  justify-content: space-between;
+  .navbarBrand {
+  }
+  .navLinks {
+    .navLink {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+}
