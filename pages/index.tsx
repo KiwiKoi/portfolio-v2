@@ -1,9 +1,13 @@
+
+import React from 'react'
+
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 
 import NavbarComponent from "../components/Navbar"
 import SkillSetComponent from '../components/SkillSet'
+import ProjectsComponent from '../components/Projects'
 
 export default function Home() {
   return (
@@ -15,6 +19,7 @@ export default function Home() {
       </Head>
       <NavbarComponent />
       <SkillSetComponent />
+      <ProjectsComponent />
     </div>
   )
 }
