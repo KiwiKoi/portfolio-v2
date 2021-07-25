@@ -18,11 +18,11 @@ function ProjectsComponent() {
 
     return (
         <div>
-            <section id="portfolio" className="portfolio">
+            <section id="portfolio" className={styles.projectList}>
                 <div className="section-title">
                     <h2 lang="en">Portfolio</h2>
                 </div>
-                <div className="projects">
+                <div className={styles.projectList}>
                     {projectList}
                 </div>
             </section>

@@ -10,12 +10,12 @@ function SkillSetComponent() {
 
 
     const skillList = (skillData.map((item) => {
-        return <SkillCard key={item.id} skillName={item.skillName} />
+        return <SkillCard key={item.id} skillName={item.skillName} skillIcon={item.skillIcon} />
     }))
 
     return (<div>
 
-        <section id="skills" className="skills">
+        <section id="skills" className={styles.skillList}>
             <div className="section-title">
                 <h2 lang="en">Skillset</h2>
             </div>

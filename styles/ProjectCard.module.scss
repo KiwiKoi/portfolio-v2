@@ -1,4 +1,26 @@
 .projectCard {
   display: flex;
   flex-direction: column;
+  border: 2px;
+  width: 100%;
+  border-width: 1px;
+  border-radius: 1px;
+  padding: 1rem;
+  margin: auto;
+
+  @media screen and (min-width: 720px) {
+    width: 30%;
+  }
+
+  &:hover {
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  .projectImg {
+    height: 5rem;
+    margin: 1rem;
+  }
+
+  .cardTitle {
+    margin-bottom: 1rem;
+  }
 }
