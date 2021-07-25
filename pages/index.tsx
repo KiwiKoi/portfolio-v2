@@ -8,6 +8,8 @@ import styles from '../styles/Home.module.scss'
 import NavbarComponent from "../components/Navbar"
 import SkillSetComponent from '../components/SkillSet'
 import ProjectsComponent from '../components/Projects'
+import ContactComponent from '../components/Contact'
+import FooterComponent from '../components/Footer'
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <NavbarComponent />
       <SkillSetComponent />
       <ProjectsComponent />
+      <ContactComponent />
+      <FooterComponent />
     </div>
   )
 }
