@@ -16,11 +16,6 @@ body {
   box-sizing: border-box;
 }
 
-body[lang="en"] [lang="fr"],
-body[lang="fr"] [lang="en"] {
-  display: none;
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -110,6 +105,13 @@ div.section-title {
   padding: 20px 20px 20px 20px;
 }
 
+.skillset {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .card {
   display: flex;
   background-color: transparent;
@@ -121,13 +123,6 @@ div.section-title {
   min-height: 0vh;
   min-width: 30vw;
 }
-
-.skill.card {
-  border: none;
-}
-/* .skill.card:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
 
 .projects {
   display: flex;
