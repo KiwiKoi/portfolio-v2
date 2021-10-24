@@ -5,12 +5,12 @@ import Image from 'next/image'
 function ProjectCardComponent(props: any) {
     return (
         <div className={styles.projectCard} >
-            <Image height='100%' width='100%' className={styles.projectImg} src={props.projectImg} alt="Card image cap" />
-            <div className={styles.cardBody}>
+            <div className={styles.imageContainer}>
+                <Image layout='fill' className={styles.projectImg} src={props.projectImg} alt="Card image cap" />
+            </div>
+            <div className={styles.cardText}>
                 <h2 lang="en" className={styles.cardTitle}>{props.projectName}</h2>
                 <p lang="en" className={styles.cardDesc}>{props.projectDescription}</p>
-
-
             </div>
             <div className={styles.buttons}>
                 {props.projectLink && <a

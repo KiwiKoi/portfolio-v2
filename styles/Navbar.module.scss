@@ -78,6 +78,7 @@
   width: 100vw;
   margin-top: 4rem;
   top: -80%;
+  transition: top 700ms linear 0s;
 
   .mobileNavLinks {
     display: flex;
@@ -90,7 +91,6 @@
   }
 
   &.expandNavbar {
-    top: 0 !important;
-    transition: all 700ms linear 0s;
+    top: 0;
   }
 }
