@@ -17,8 +17,8 @@ function ProjectsComponent() {
     }))
 
     return (
-        <div>
-            <section id="portfolio" className={styles.projectList}>
+        <section className={styles.container}>
+            <div id="portfolio" className={styles.projectList}>
                 <div className="section-title">
                     <h2 lang="en">Portfolio</h2>
                 </div>
@@ -28,8 +28,8 @@ function ProjectsComponent() {
                     </div>
                 </div>
 
-            </section>
-        </div>
+            </div>
+        </section>
     )
 }
 
