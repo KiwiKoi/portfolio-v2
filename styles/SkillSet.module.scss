@@ -1,11 +1,14 @@
-.skillList {
+.skillListContainer {
   display: flex;
+  max-width: 720px;
+  margin: auto;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 720px;
-  padding: 5rem 0 2rem 0;
-  margin: auto;
   justify-content: center;
+  .skillList {
+    display: flex;
+    padding: 5rem 0 2rem 0;
+  }
 }
 
 @media (max-width: 720px) {

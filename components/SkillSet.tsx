@@ -19,7 +19,7 @@ function SkillSetComponent() {
             <div className="section-title">
                 <h2 lang="en">Skillset</h2>
             </div>
-            <div className="skillset">
+            <div className={styles.skillListContainer}>
                 {skillList}
             </div>
         </section>

@@ -68,10 +68,6 @@ a {
   text-decoration: none;
 }
 
-i.logo {
-  padding: 0 8px 0 0;
-}
-
 button {
   cursor: pointer;
 }
@@ -105,48 +101,6 @@ div.section-title {
   color: #1aa4bd;
   font-size: 50px;
   padding: 20px 20px 20px 20px;
-}
-
-.skillset {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.card {
-  display: flex;
-  background-color: transparent;
-  box-sizing: border-box;
-  align-content: center;
-  border-width: 1px;
-  border-radius: 1px;
-  margin: 2px;
-  min-height: 0vh;
-  min-width: 30vw;
-}
-
-.project.card {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-@media (min-width: 768px) {
-  .projects {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .project.card {
-    width: 23%;
-  }
-}
-
-.project.card:hover {
-  box-shadow: none;
 }
 
 img {

@@ -6,6 +6,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 
 import NavbarComponent from "../components/Navbar"
+import HeaderComponent from "../components/Header"
 import SkillSetComponent from '../components/SkillSet'
 import ProjectsComponent from '../components/Projects'
 import ContactComponent from '../components/Contact'
@@ -21,6 +22,8 @@ export default function Home() {
       </Head>
       <NavbarComponent />
       <div className={styles.pageContent}>
+        <HeaderComponent />
+        <hr />
         <SkillSetComponent />
         <hr />
         <ProjectsComponent />

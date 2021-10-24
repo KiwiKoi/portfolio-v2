@@ -8,7 +8,7 @@ function NavbarComponent() {
         <nav className={styles.navbar}>
             <div className={styles.navbarContent}>
                 <div className={styles.navbarBrand}>
-                    <img src='images/code-solid.svg' /><a href="#">Daniel Visage</a>
+                    <img src='images/code-solid.svg' /><a >Daniel Visage</a>
                 </div>
                 <div className={styles.navLinks}>
                     <a className={styles.navLink} href="#skills">Skillset</a>
