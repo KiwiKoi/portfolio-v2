@@ -20,11 +20,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavbarComponent />
-      <SkillSetComponent />
-      <hr />
-      <ProjectsComponent />
-      <hr />
-      <ContactComponent />
+      <div className={styles.pageContent}>
+        <SkillSetComponent />
+        <hr />
+        <ProjectsComponent />
+        <hr />
+        <ContactComponent />
+      </div>
+
       <FooterComponent />
     </div>
   )

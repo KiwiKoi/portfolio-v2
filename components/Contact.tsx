@@ -1,9 +1,11 @@
 import React from 'react'
+import styles from '../styles/Contact.module.scss'
+
 
 function ContactComponent() {
     return (
-        <section id="contact" className="contact">
-            <div className="section-title">
+        <section id="contact" className={styles.contactSection}>
+            <div className={styles.sectionTitle}>
                 <h2 lang="en">Get In Touch</h2>
                 <h2 lang="fr">Contactez-moi</h2>
             </div>
