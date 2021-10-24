@@ -1,5 +1,18 @@
 .contactSection {
   max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
   padding: 2rem 0 2rem 0;
   margin: auto;
+
+  .contactSocial {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: center;
+    .contactIcon {
+      height: 2.5rem;
+    }
+  }
 }
