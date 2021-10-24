@@ -17,11 +17,16 @@
     width: 100%;
     margin: auto;
 
+    .navbarToggle {
+      display: block;
+      height: 2rem;
+    }
     .navbarBrand {
-      display: flex;
+      display: none;
       flex-direction: row;
       height: 2rem;
       color: white;
+
       img {
         height: 100%;
         padding-right: 1rem;
