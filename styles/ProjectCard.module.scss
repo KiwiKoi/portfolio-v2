@@ -40,6 +40,7 @@
     color: white;
     border-radius: 0.75rem;
     padding: 0.5rem 0.75rem;
+    transition: all 0.2s linear;
 
     &:hover {
       box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 20%);
