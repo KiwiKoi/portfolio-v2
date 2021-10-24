@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   flex-direction: row;
   background-color: darkslategrey;
   color: aliceblue;
@@ -19,10 +19,19 @@
 
     .navbarToggle {
       display: block;
+      cursor: pointer;
       height: 2rem;
+      width: 2rem;
+      color: white;
+      background: none;
+      border: none;
+
+      @media screen and (min-width: 720px) {
+        display: none;
+      }
     }
     .navbarBrand {
-      display: none;
+      display: flex;
       flex-direction: row;
       height: 2rem;
       color: white;
@@ -55,48 +64,31 @@
       }
     }
   }
+}
+.mobileMenu {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: darkslategrey;
+  color: white;
+  height: fit-content;
+  width: 100vw;
+  margin-top: 4rem;
+  top: -80%;
 
-  @media (min-width: 992px) {
-    .animate {
-      animation-duration: 0.3s;
-      -webkit-animation-duration: 0.3s;
-      animation-fill-mode: both;
-      -webkit-animation-fill-mode: both;
-    }
+  .mobileNavLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    gap: 1rem;
+    padding: 2rem;
+    margin: 0 auto;
   }
 
-  @keyframes slideIn {
-    0% {
-      transform: translateY(1rem);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0rem);
-      opacity: 1;
-    }
-    0% {
-      transform: translateY(1rem);
-      opacity: 0;
-    }
-  }
-
-  @-webkit-keyframes slideIn {
-    0% {
-      -webkit-transform: transform;
-      -webkit-opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateY(0);
-      -webkit-opacity: 1;
-    }
-    0% {
-      -webkit-transform: translateY(1rem);
-      -webkit-opacity: 0;
-    }
-  }
-
-  .slideIn {
-    -webkit-animation-name: slideIn;
-    animation-name: slideIn;
+  &.expandNavbar {
+    top: 0 !important;
+    transition: all 700ms linear 0s;
   }
 }
