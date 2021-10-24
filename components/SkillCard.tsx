@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import styles from '../styles/SkillCard.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -10,7 +11,7 @@ function SkillCardComponent(props: any) {
         <div>
             <div className={styles.skillCard}>
                 <div>
-                    <img className={styles.skillIcon} src={props.skillIcon} />
+                    <Image height='100%' width='100%' className={styles.skillIcon} src={props.skillIcon} />
                     <h3>{props.skillName}</h3>
                 </div>
             </div>

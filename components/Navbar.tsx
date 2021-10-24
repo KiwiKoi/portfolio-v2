@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import Image from 'next/image'
+import { faBars, faCode } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styles from '../styles/Navbar.module.scss'
 
@@ -20,7 +21,9 @@ function NavbarComponent() {
         <>
             <nav className={styles.navbar}>
                 <div className={styles.navbarContent}>
-                    <div className={styles.navbarBrand}><img src='images/code-solid.svg' /><a >Daniel Visage</a></div>
+                    <div className={styles.navbarBrand}>
+                        <FontAwesomeIcon icon={faCode} />
+                        <a>Daniel Visage</a></div>
                     <button type="button" onClick={() => navbarToggler()} className={styles.navbarToggle}>
                         <FontAwesomeIcon icon={faBars} />
                     </button>
