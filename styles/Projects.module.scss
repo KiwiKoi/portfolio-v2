@@ -1,13 +1,22 @@
-.projectList {
-  display: flex;
-  max-width: 650px;
-  flex-direction: column;
-  padding: 2rem 0 2rem 0;
-  margin: auto;
-  justify-content: center;
+.projectListContainer {
+  max-width: calc(1024px + 3rem);
+  margin: 0 auto;
 
-  @media screen and (min-width: 720px) {
-    flex-direction: row;
-    flex-wrap: wrap;
+  .projectList {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    padding: 2rem 0 2rem 0;
+    margin: auto;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  @media screen and (min-width: 480px) {
+    .projectList {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
   }
 }

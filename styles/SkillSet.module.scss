@@ -1,5 +1,16 @@
 .skillList {
-  max-width: 650px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 720px;
   padding: 5rem 0 2rem 0;
   margin: auto;
+  justify-content: center;
+}
+
+@media (max-width: 720px) {
+  .skillList {
+    width: 100%;
+    flex-direction: column;
+  }
 }

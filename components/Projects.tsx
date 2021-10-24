@@ -22,9 +22,12 @@ function ProjectsComponent() {
                 <div className="section-title">
                     <h2 lang="en">Portfolio</h2>
                 </div>
-                <div className={styles.projectList}>
-                    {projectList}
+                <div className={styles.projectListContainer}>
+                    <div className={styles.projectList}>
+                        {projectList}
+                    </div>
                 </div>
+
             </section>
         </div>
     )
