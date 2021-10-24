@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import { faBars, faCode } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -9,10 +9,7 @@ function NavbarComponent() {
 
     const [expandNavbar, setExpandNavbar] = useState<string | null>(null);
 
-    useEffect(() => {
-        setExpandNavbar('');
 
-    }, [])
     const navbarToggler = () => {
         expandNavbar === null ? setExpandNavbar(styles.expandNavbar) : setExpandNavbar(null);
     }
@@ -27,8 +24,6 @@ function NavbarComponent() {
                     <button type="button" onClick={() => navbarToggler()} className={styles.navbarToggle}>
                         <FontAwesomeIcon icon={faBars} />
                     </button>
-
-
                     {!expandNavbar &&
                         <div className={styles.navLinks}>
                             <a className={styles.navLink} href="#skills">Skillset</a>
