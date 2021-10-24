@@ -59,7 +59,7 @@ export const projectData = [
         projectName: "Portfolio Site",
         projectDescription: 'My portfolio site made in HTML/CSS/Javascript and Bootstrap.',
         projectLink: "https://www.danielvisage.com",
-        projectGithub: 'https://github.com/KiwiKoi/portfolio',
+        projectGithub: 'https://github.com/KiwiKoi/portfolio-v2',
         projectImg: '/images/portfolio-preview.png'
 
     },
