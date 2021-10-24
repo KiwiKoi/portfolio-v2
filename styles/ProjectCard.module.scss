@@ -2,34 +2,36 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: auto;
   border-radius: 10px;
   padding: 1.5rem;
+  gap: 1.5rem;
   box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 20%);
 
-  &:hover {
-    cursor: pointer;
-    box-shadow: none;
-  }
   .projectImg {
     height: 5rem;
     margin: 1rem;
   }
 
-  .cardTitle {
-    margin-bottom: 1rem;
-  }
-
-  .buttons {
+  .cardBody {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
+    .cardTitle {
+    }
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
     width: fit-content;
-    margin: 1.5rem auto;
+    margin: auto auto 0;
     gap: 1rem;
     .buttonPrimary {
+      cursor: pointer;
       background-color: darkslategrey;
       color: white;
       border-radius: 0.75rem;
-      padding: 0.5rem 1rem;
+      padding: 0.5rem 0.75rem;
 
       &:hover {
         box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 20%);
