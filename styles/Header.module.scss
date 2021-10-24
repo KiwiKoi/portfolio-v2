@@ -5,6 +5,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+
   .headerContent {
     display: flex;
     flex-direction: column;
@@ -14,14 +15,16 @@
 
     .headerTitle {
     }
+
     .jobTitle {
       color: #e7e7e7;
     }
+
     .projectsBtn {
       background: whitesmoke;
       background-color: #fff;
       width: fit-content;
-
+      box-shadow: none;
       border-radius: 20px;
       display: inline-block;
       cursor: pointer;
@@ -31,10 +34,11 @@
       padding: 10px 25px;
       margin: auto;
       text-decoration: none;
+      transition: all 500ms;
 
       &:hover {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0px 0px 8px 4px white;
+        color: #2294c1;
       }
     }
   }
