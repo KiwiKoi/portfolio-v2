@@ -15,6 +15,7 @@ function ProjectsComponent() {
             projectImg={item.projectImg}
         />
     }))
+    
 
     return (
         <section className={styles.container}>

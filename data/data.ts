@@ -58,12 +58,12 @@ export const projectData = [
 ]
 
 export const skillData = [
-    { id: 1, skillName: "HTML", skillIcon: '/images/html5-icon.svg' },
-    { id: 2, skillName: "Javascript", skillIcon: '/images/js-icon.svg' },
-    { id: 3, skillName: "ReactJS", skillIcon: '/images/react-icon.svg' },
-    { id: 8, skillName: "Angular", skillIcon: '/images/angular-icon.svg' },
-    { id: 4, skillName: "NextJS", skillIcon: "/images/nextjs-icon.svg" },
-    { id: 5, skillName: "Strapi", skillIcon: "/images/strapi-icon.svg" },
-    { id: 6, skillName: "NodeJS", skillIcon: '/images/node-icon.svg' },
-    { id: 7, skillName: "GraphQL", skillIcon: '/images/graphql-icon.svg' }
+    { id: 1, skillName: "Javascript", skillIcon: '/images/js-icon.svg' },
+    { id: 2, skillName: "ReactJS", skillIcon: '/images/react-icon.svg' },
+    { id: 3, skillName: "Angular", skillIcon: '/images/angular-icon.svg' },
+    { id: 4, skillName: "Sass", skillIcon: '/images/sass-icon.svg' },
+    { id: 5, skillName: "NextJS", skillIcon: "/images/nextjs-icon.svg" },
+    { id: 6, skillName: "Strapi", skillIcon: "/images/strapi-icon.svg" },
+    { id: 7, skillName: "NodeJS", skillIcon: '/images/node-icon.svg' },
+    { id: 8, skillName: "GraphQL", skillIcon: '/images/graphql-icon.svg' }
 ]
