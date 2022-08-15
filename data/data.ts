@@ -2,10 +2,10 @@
 export const projectData = [
     {
         id: 1,
-        projectName: "Chatter App (work in progress)",
-        projectDescription: 'Group project worked on for my course at Wild Code School, fullstack app with React and Nextjs.',
-        projectLink: "https://chatter.wns.wilders.dev/",
-        projectGithub: 'github.com/WildCodeSchool/2020-11-wns-remote2-groupe1-projet',
+        projectName: "Chatter App",
+        projectDescription: 'Based on the Group project worked on for my course at Wild Code School, fullstack app with React and Nextjs.',
+        projectLink: "",
+        projectGithub: 'https://github.com/KiwiKoi/chatter-app',
         projectImg: "/images/chatter-preview.webp"
     },
     {
