@@ -2,19 +2,19 @@
 export const projectData = [
     {
         id: 1,
-        projectName: "Chatter App",
-        projectDescription: 'Based on the Group project worked on for my course at Wild Code School, fullstack app with React and Nextjs.',
-        projectLink: "",
-        projectGithub: 'https://github.com/KiwiKoi/chatter-app',
-        projectImg: "/images/chatter-preview.webp"
-    },
-    {
-        id: 2,
         projectName: "Prismo.io",
         projectDescription: 'Prismo.io is the website I worked on for a startup that specializes in HR profiling tech.',
         projectLink: "https://prismo.io/",
         projectImg: '/images/prismoio-preview.webp'
 
+    },
+    {
+        id: 2,
+        projectName: "Chatter App",
+        projectDescription: 'Based on a Group project worked on for my course at Wild Code School, fullstack app with React and Nextjs.',
+        projectLink: "",
+        projectGithub: 'https://github.com/KiwiKoi/chatter-app',
+        projectImg: "/images/chatter-preview.webp"
     },
     {
         id: 3,
@@ -42,16 +42,6 @@ export const projectData = [
         projectLink: "https://breakingbad-app.netlify.app/",
         projectGithub: 'https://github.com/KiwiKoi/breaking-bad-cast',
         projectImg: '/images/BB-preview.webp'
-
-    },
-
-    {
-        id: 6,
-        projectName: "Hangman App",
-        projectDescription: 'A hangman app created with javascript.',
-        projectLink: "https://hangman-practice-app.netlify.app",
-        projectGithub: 'https://github.com/KiwiKoi/hangman',
-        projectImg: '/images/hangman-preview.webp'
 
     }
 
