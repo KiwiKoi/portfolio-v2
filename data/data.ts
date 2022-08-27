@@ -18,30 +18,11 @@ export const projectData = [
     },
     {
         id: 3,
-        projectName: "Argonauts App",
-        projectDescription: 'A simple fullstack React app with MongoDB database.',
-        projectLink: "https://argonauts-app.herokuapp.com/",
-        projectGithub: 'https://github.com/KiwiKoi/argonauts',
-        projectImg: '/images/argonauts-preview.webp'
-
-    },
-    {
-        id: 4,
         projectName: "Pokédex App",
         projectDescription: 'A pokedex made in Angular with the PokeAPI.',
         projectLink: "https://angulardex.netlify.app/",
         projectGithub: 'https://github.com/KiwiKoi/angular-pokedex',
         projectImg: '/images/pokedex-preview.webp'
-
-    },
-
-    {
-        id: 5,
-        projectName: "Breaking Bad App",
-        projectDescription: 'An info app that pulls character data from the Breaking Bad API.',
-        projectLink: "https://breakingbad-app.netlify.app/",
-        projectGithub: 'https://github.com/KiwiKoi/breaking-bad-cast',
-        projectImg: '/images/BB-preview.webp'
 
     }
 
