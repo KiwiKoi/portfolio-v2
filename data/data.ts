@@ -28,8 +28,8 @@ export const projectData = [
     {
         id: 4,
         projectName: "Pokédex App",
-        projectDescription: 'A pokedex made in Reactjs with the PokeAPI.',
-        projectLink: "https://pokedex-practice-app.netlify.app/",
+        projectDescription: 'A pokedex made in Angular with the PokeAPI.',
+        projectLink: "https://angulardex.netlify.app/",
         projectGithub: 'https://github.com/KiwiKoi/pokedex',
         projectImg: '/images/pokedex-preview.webp'
 
