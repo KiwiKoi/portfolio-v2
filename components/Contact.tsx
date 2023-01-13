@@ -11,7 +11,7 @@ function ContactComponent() {
                 <h2 lang="en">Get In Touch</h2>
             </div>
             <div className={styles.contactSocial}>
-                <a className={styles.contactLink} href="https://linkedin.com/danielvisage" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={styles.contactIcon} icon={faLinkedin} /></a>
+                <a className={styles.contactLink} href="https://linkedin.com/in/danielvisage" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={styles.contactIcon} icon={faLinkedin} /></a>
                 <a className={styles.contactLink} href="https://github.com/KiwiKoi" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={styles.contactIcon} icon={faGithub} /></a>
                 <a className={styles.contactLink} href="mailto:danielo.visage@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={styles.contactIcon} icon={faEnvelopeSquare} /></a>
             </div>

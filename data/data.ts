@@ -22,7 +22,7 @@ export const projectData = [
         projectDescription: 'A pokedex made in Angular with the PokeAPI.',
         projectLink: "https://angulardex.netlify.app/",
         projectGithub: 'https://github.com/KiwiKoi/angular-pokedex',
-        projectImg: '/images/pokedex-preview.webp'
+        projectImg: '/images/angulardex-preview.webp'
 
     }
 
